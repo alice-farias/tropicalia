@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Inter:wght@100..900&family=Julius+Sans+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
 .navbar-brand img {
     max-height: 50px; 
     margin-left: 10vh;
@@ -257,6 +259,21 @@ button {
 
   /* card */
 
+  .espacamento-extra-1{
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+    align-content: center;
+    grid-row: 8;
+    grid-column-start: 1;
+    grid-column-end: 8;
+  }
+
+  .linha-marrom-espacamento-extra-1{
+    height: 6px;
+    background-color: #AA7448;
+    grid-column: 2;
+  }
+
   .custom-card {
     border: none;
     border-radius: 10px;
@@ -308,13 +325,1541 @@ button {
     margin: 10vh;
 }
 
-/* footer */
+/* Produtos */
 
 
+.container-produtos-destaque{
+  height: 15vh;
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+}
+
+.container-produtos-destaque p{
+  align-self: center;
+  grid-column: 2;
+  font-size: 150%;
+  font-family: 'Julius Sans One';
+  text-decoration: underline 1px;
+}
+
+.container1-produtos{
+    height: 100vh;
+}
+
+.container-produtos-1{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 0% 0% 0% 40% 10% 40%;
+    grid-template-columns: 10% 21.66% 7.5% 21.66% 7.5% 21.66% 10%;
+}
+
+.card {
+    width: 100%;
+    height: 80%;
+    transition: all .5s;
+    box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+               -15px -15px 30px rgba(60, 60, 60, 0.082);
+    text-align: center;
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 4;
+    background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+    
+  }
+  
+  .card:hover {
+    height: 360px;
+    background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+  }
+  
+  .card .header {
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   background-image: url('../IMG/velas2.JPG');
+   background-size: cover;
+    margin-bottom: 30px;
+  }
+  
+  .card .header .img-box {
+    width: 50px;
+  }
+  
+  .card .header .title {
+    font-size: 1em;
+    letter-spacing: .1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 4px 0 14px 0;
+    transition: all .5s;
+    color: #edededc5;
+  }
+  
+  
+  .card:hover .card .header .title {
+    padding: 0;
+  }
+  
+  .card .content {
+    display: block;
+    text-align: left;
+    color: #212121;
+    margin: 0 18px;
+  }
+  
+  .card .content p {
+    transition: all .5s;
+    font-size: .8em;
+    margin-bottom: 8px;
+  }
+  
+  .card .content a {
+    color: #AA7448;
+    cursor: pointer;
+    transition: all .5s;
+    font-size: .7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .card .content .btn-link:hover {
+    border-bottom: 1px solid #AA7448;
+  }
+
+  /* a */
+
+  .card-2 {
+    width: 100%;
+    height: 80%;
+    transition: all .5s;
+    box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+               -15px -15px 30px rgba(60, 60, 60, 0.082);
+    text-align: center;
+    overflow: hidden;
+    grid-column: 4;
+    grid-row: 4;
+    background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+  }
+  
+  .card-2:hover {
+    height: 360px;
+    background: linear-gradient(360deg, #edededc5 60%, hsla(0, 0%, 13%, 1) 70%);
+  }
+  
+  .card-2 .header-2 {
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   background-image: url('../IMG/velas2.JPG');
+   background-size: cover;
+    margin-bottom: 30px;
+  }
+  
+  .card-2 .header-2 .img-box-2 {
+    width: 50px;
+  }
+  
+  .card-2 .header-2 .title-2 {
+    font-size: 1em;
+    letter-spacing: .1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 4px 0 14px 0;
+    transition: all .5s;
+    color: #edededc5;
+  }
+  
+  .card-2:hover .header-2 {
+  }
+  
+  .card-2:hover .card-2 .header-2 .title-2 {
+    padding: 0;
+  }
+  
+  .card-2 .content-2 {
+    display: block;
+    text-align: left;
+    color: #212121;
+    margin: 0 18px;
+  }
+  
+  .card-2 .content-2 p {
+    transition: all .5s;
+    font-size: .8em;
+    margin-bottom: 8px;
+  }
+  
+  .card-2 .content-2 a {
+    color: #AA7448;
+    cursor: pointer;
+    transition: all .5s;
+    font-size: .7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .card-2 .content-2 .btn-link-2:hover {
+    border-bottom: 1px solid #AA7448;
+  }
+  
+  .card-3 {
+    width: 100%;
+    height: 80%;
+    transition: all .5s;
+    box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+               -15px -15px 30px rgba(60, 60, 60, 0.082);
+    text-align: center;
+    overflow: hidden;
+    grid-column: 6;
+    grid-row: 4;
+    background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+  }
+  
+  .card-3:hover {
+    height: 360px;
+    background: linear-gradient(360deg, #edededc5 60%, hsla(0, 0%, 13%, 1) 70%);
+  }
+  
+  .card-3 .header-3 {
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   background-image: url('../IMG/velas2.JPG');
+   background-size: cover;
+    margin-bottom: 30px;
+  }
+  
+  .card-3 .header-3 .img-box-3 {
+    width: 50px;
+  }
+  
+  .card-3 .header-3 .title-3 {
+    font-size: 1em;
+    letter-spacing: .1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 4px 0 14px 0;
+    transition: all .5s;
+    color: #edededc5;
+  }
+  
+  .card-3:hover .header-3 {
+  }
+  
+  .card-3:hover .card-3 .header-3 .title-3 {
+    padding: 0;
+  }
+  
+  .card-3 .content-3 {
+    display: block;
+    text-align: left;
+    color: #212121;
+    margin: 0 18px;
+  }
+  
+  .card-3 .content-3 p {
+    transition: all .5s;
+    font-size: .8em;
+    margin-bottom: 8px;
+  }
+  
+  .card-3 .content-3 a {
+    color: #AA7448;
+    cursor: pointer;
+    transition: all .5s;
+    font-size: .7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .card-3 .content-3 .btn-link-3:hover {
+    border-bottom: 1px solid #AA7448;
+  }
+
+  /* SEGUNDA LINHA */
+
+  .card-4 {
+    width: 100%;
+    height: 80%;
+    transition: all .5s;
+    box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+               -15px -15px 30px rgba(60, 60, 60, 0.082);
+    text-align: center;
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 6;
+    background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+  }
+  
+  .card-4:hover {
+    height: 360px;
+    background: linear-gradient(360deg, #edededc5 60%, hsla(0, 0%, 13%, 1) 70%);
+  }
+  
+  .card-4 .header-4 {
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   background-image: url('../IMG/velas2.JPG');
+   background-size: cover;
+    margin-bottom: 30px;
+  }
+  
+  .card-4 .header-4 .img-box-4 {
+    width: 50px;
+  }
+  
+  .card-4 .header-4 .title-4 {
+    font-size: 1em;
+    letter-spacing: .1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 4px 0 14px 0;
+    transition: all .5s;
+    color: #edededc5;
+  }
+  
+  .card-4:hover .header-4 {
+  }
+  
+  .card-4:hover .card-4 .header-4 .title-4 {
+    padding: 0;
+  }
+  
+  .card-4 .content-4 {
+    display: block;
+    text-align: left;
+    color: #212121;
+    margin: 0 18px;
+  }
+  
+  .card-4 .content-4 p {
+    transition: all .5s;
+    font-size: .8em;
+    margin-bottom: 8px;
+  }
+  
+  .card-4 .content-4 a {
+    color: #AA7448;
+    cursor: pointer;
+    transition: all .5s;
+    font-size: .7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .card-4 .content-4 .btn-link-4:hover {
+    border-bottom: 1px solid #AA7448;
+  }
+
+  /* a */
+
+ 
+  
+  .card-5 {
+    width: 100%;
+    height: 80%;
+    transition: all .5s;
+    box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+               -15px -15px 30px rgba(60, 60, 60, 0.082);
+    text-align: center;
+    overflow: hidden;
+    grid-column: 6;
+    grid-row: 6;
+    background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+  }
+  
+  .card-5:hover {
+    height: 360px;
+    background: linear-gradient(360deg, #edededc5 60%, hsla(0, 0%, 13%, 1) 70%);
+  }
+  
+  .card-5 .header-5 {
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   background-image: url('../IMG/velas2.JPG');
+   background-size: cover;
+    margin-bottom: 30px;
+  }
+  
+  .card-5 .header-5 .img-box-5 {
+    width: 50px;
+  }
+  
+  .card-5 .header-5 .title-5 {
+    font-size: 1em;
+    letter-spacing: .1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 4px 0 14px 0;
+    transition: all .5s;
+    color: #edededc5;
+  }
+  
+  .card-5:hover .header-5 {
+  }
+  
+  .card-5:hover .card-5 .header-5 .title-5 {
+    padding: 0;
+  }
+  
+  .card-5 .content-5 {
+    display: block;
+    text-align: left;
+    color: #212121;
+    margin: 0 18px;
+  }
+  
+  .card-5 .content-5 p {
+    transition: all .5s;
+    font-size: .8em;
+    margin-bottom: 8px;
+  }
+  
+  .card-5 .content-5 a {
+    color: #AA7448;
+    cursor: pointer;
+    transition: all .5s;
+    font-size: .7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .card-5 .content-5 .btn-link-5:hover {
+    border-bottom: 1px solid #AA7448;
+  }
+
+  /* 6 */
+
+  .card-6 {
+    width: 100%;
+    height: 80%;
+    transition: all .5s;
+    box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+               -15px -15px 30px rgba(60, 60, 60, 0.082);
+    text-align: center;
+    overflow: hidden;
+    grid-column: 4;
+    grid-row: 6;
+    background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+  }
+  
+  .card-6:hover {
+    height: 360px;
+    background: linear-gradient(360deg, #edededc5 60%, hsla(0, 0%, 13%, 1) 70%);
+  }
+  
+  .card-6 .header-6 {
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   background-image: url('../IMG/velas2.JPG');
+   background-size: cover;
+    margin-bottom: 30px;
+  }
+  
+  .card-6 .header-6 .img-box-6 {
+    width: 50px;
+  }
+  
+  .card-6 .header-6 .title-6 {
+    font-size: 1em;
+    letter-spacing: .1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 4px 0 14px 0;
+    transition: all .5s;
+    color: #edededc5;
+  }
+  
+  .card-6:hover .header-6 {
+  }
+  
+  .card-6:hover .card-6 .header-6 .title-6 {
+    padding: 0;
+  }
+  
+  .card-6 .content-6 {
+    display: block;
+    text-align: left;
+    color: #212121;
+    margin: 0 18px;
+  }
+  
+  .card-6 .content-6 p {
+    transition: all .5s;
+    font-size: .8em;
+    margin-bottom: 8px;
+  }
+  
+  .card-6 .content-6 a {
+    color: #AA7448;
+    cursor: pointer;
+    transition: all .5s;
+    font-size: .7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .card-6 .content-6 .btn-link-6:hover {
+    border-bottom: 1px solid #AA7448;
+  }
 
 
+  .container-produtos-destaque{
+    height: 15vh;
+    display: grid;
+    grid-template-columns: 10% 80% 10%;
+  }
+  
+  .container-produtos-destaque p{
+    align-self: center;
+    grid-column: 2;
+    font-size: 150%;
+    font-family: 'Julius Sans One';
+    text-decoration: underline 1px;
+  }
+  
+  .container1-produtos{
+      height: 150vh;
+  }
+  
+  .container-produtos-1{
+      display: grid;
+      height: 100vh;
+      grid-template-rows: 0% 0% 0% 40% 10% 40% 10% 40%;
+      grid-template-columns: 10% 21.66% 7.5% 21.66% 7.5% 21.66% 10%;
+  }
+  
+  .card {
+    width: 100%;
+    height: 80%; /* Altura original */
+    transition: height .5s, background .5s; /* Transição para altura e background */
+    box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+               -15px -15px 30px rgba(60, 60, 60, 0.082);
+    text-align: center;
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 4;
+    background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+  }
+  
+  .card:hover {
+    height: 360px; /* Altura aumentada durante o hover */
+    background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+  }
+    
+    .card:hover {
+      height: 360px;
+      background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+    }
+    
+    .card .header {
+      padding: 70px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     background-image: url('../IMG/velas2.JPG');
+     background-size: cover;
+      margin-bottom: 30px;
+    }
+    
+    .card .header .img-box {
+      width: 50px;
+    }
+    
+    .card .header .title {
+      font-size: 1em;
+      letter-spacing: .1em;
+      font-weight: 900;
+      text-transform: uppercase;
+      padding: 4px 0 14px 0;
+      transition: all .5s;
+      color: #edededc5;
+    }
+    
+    
+    .card:hover .card .header .title {
+      padding: 0;
+    }
+    
+    .card .content {
+      display: block;
+      text-align: left;
+      color: #212121;
+      margin: 0 18px;
+    }
+    
+    .card .content p {
+      transition: all .5s;
+      font-size: .8em;
+      margin-bottom: 8px;
+    }
+    
+    .card .content a {
+      color: #AA7448;
+      cursor: pointer;
+      transition: all .5s;
+      font-size: .7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    
+    .card .content .btn-link:hover {
+      border-bottom: 1px solid #AA7448;
+    }
+  
+    /* a */
+  
+    .card-2 {
+      width: 100%;
+      height: 80%;
+      transition: all .5s;
+      box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+                 -15px -15px 30px rgba(60, 60, 60, 0.082);
+      text-align: center;
+      overflow: hidden;
+      grid-column: 4;
+      grid-row: 4;
+      background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+    }
+    
+    .card-2:hover {
+      height: 360px;
+      background: linear-gradient(360deg, #edededc5 60%, hsla(0, 0%, 13%, 1) 70%);
+    }
+    
+    .card-2 .header-2 {
+      padding: 70px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     background-image: url('../IMG/velas2.JPG');
+     background-size: cover;
+      margin-bottom: 30px;
+    }
+    
+    .card-2 .header-2 .img-box-2 {
+      width: 50px;
+    }
+    
+    .card-2 .header-2 .title-2 {
+      font-size: 1em;
+      letter-spacing: .1em;
+      font-weight: 900;
+      text-transform: uppercase;
+      padding: 4px 0 14px 0;
+      transition: all .5s;
+      color: #edededc5;
+    }
+    
+    .card-2:hover .header-2 {
+    }
+    
+    .card-2:hover .card-2 .header-2 .title-2 {
+      padding: 0;
+    }
+    
+    .card-2 .content-2 {
+      display: block;
+      text-align: left;
+      color: #212121;
+      margin: 0 18px;
+    }
+    
+    .card-2 .content-2 p {
+      transition: all .5s;
+      font-size: .8em;
+      margin-bottom: 8px;
+    }
+    
+    .card-2 .content-2 a {
+      color: #AA7448;
+      cursor: pointer;
+      transition: all .5s;
+      font-size: .7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    
+    .card-2 .content-2 .btn-link-2:hover {
+      border-bottom: 1px solid #AA7448;
+    }
+    
+    .card-3 {
+      width: 100%;
+      height: 80%;
+      transition: all .5s;
+      box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+                 -15px -15px 30px rgba(60, 60, 60, 0.082);
+      text-align: center;
+      overflow: hidden;
+      grid-column: 6;
+      grid-row: 4;
+      background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+    }
+    
+    .card-3:hover {
+      height: 360px;
+      background: linear-gradient(360deg, #edededc5 60%, hsla(0, 0%, 13%, 1) 70%);
+    }
+    
+    .card-3 .header-3 {
+      padding: 70px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     background-image: url('../IMG/velas2.JPG');
+     background-size: cover;
+      margin-bottom: 30px;
+    }
+    
+    .card-3 .header-3 .img-box-3 {
+      width: 50px;
+    }
+    
+    .card-3 .header-3 .title-3 {
+      font-size: 1em;
+      letter-spacing: .1em;
+      font-weight: 900;
+      text-transform: uppercase;
+      padding: 4px 0 14px 0;
+      transition: all .5s;
+      color: #edededc5;
+    }
+    
+    .card-3:hover .header-3 {
+    }
+    
+    .card-3:hover .card-3 .header-3 .title-3 {
+      padding: 0;
+    }
+    
+    .card-3 .content-3 {
+      display: block;
+      text-align: left;
+      color: #212121;
+      margin: 0 18px;
+    }
+    
+    .card-3 .content-3 p {
+      transition: all .5s;
+      font-size: .8em;
+      margin-bottom: 8px;
+    }
+    
+    .card-3 .content-3 a {
+      color: #AA7448;
+      cursor: pointer;
+      transition: all .5s;
+      font-size: .7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    
+    .card-3 .content-3 .btn-link-3:hover {
+      border-bottom: 1px solid #AA7448;
+    }
+  
+    /* SEGUNDA LINHA */
+  
+    .card-4 {
+      width: 100%;
+      height: 80%;
+      transition: all .5s;
+      box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+                 -15px -15px 30px rgba(60, 60, 60, 0.082);
+      text-align: center;
+      overflow: hidden;
+      grid-column: 2;
+      grid-row: 6;
+      background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+    }
+    
+    .card-4:hover {
+      height: 360px;
+      background: linear-gradient(360deg, #edededc5 60%, hsla(0, 0%, 13%, 1) 70%);
+    }
+    
+    .card-4 .header-4 {
+      padding: 70px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     background-image: url('../IMG/velas2.JPG');
+     background-size: cover;
+      margin-bottom: 30px;
+    }
+    
+    .card-4 .header-4 .img-box-4 {
+      width: 50px;
+    }
+    
+    .card-4 .header-4 .title-4 {
+      font-size: 1em;
+      letter-spacing: .1em;
+      font-weight: 900;
+      text-transform: uppercase;
+      padding: 4px 0 14px 0;
+      transition: all .5s;
+      color: #edededc5;
+    }
+    
+    .card-4:hover .header-4 {
+    }
+    
+    .card-4:hover .card-4 .header-4 .title-4 {
+      padding: 0;
+    }
+    
+    .card-4 .content-4 {
+      display: block;
+      text-align: left;
+      color: #212121;
+      margin: 0 18px;
+    }
+    
+    .card-4 .content-4 p {
+      transition: all .5s;
+      font-size: .8em;
+      margin-bottom: 8px;
+    }
+    
+    .card-4 .content-4 a {
+      color: #AA7448;
+      cursor: pointer;
+      transition: all .5s;
+      font-size: .7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    
+    .card-4 .content-4 .btn-link-4:hover {
+      border-bottom: 1px solid #AA7448;
+    }
+  
+    /* a */
+  
+   
+    
+    .card-5 {
+      width: 100%;
+      height: 80%;
+      transition: all .5s;
+      box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+                 -15px -15px 30px rgba(60, 60, 60, 0.082);
+      text-align: center;
+      overflow: hidden;
+      grid-column: 6;
+      grid-row: 6;
+      background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+    }
+    
+    .card-5:hover {
+      height: 360px;
+      background: linear-gradient(360deg, #edededc5 60%, hsla(0, 0%, 13%, 1) 70%);
+    }
+    
+    .card-5 .header-5 {
+      padding: 70px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     background-image: url('../IMG/velas2.JPG');
+     background-size: cover;
+      margin-bottom: 30px;
+    }
+    
+    .card-5 .header-5 .img-box-5 {
+      width: 50px;
+    }
+    
+    .card-5 .header-5 .title-5 {
+      font-size: 1em;
+      letter-spacing: .1em;
+      font-weight: 900;
+      text-transform: uppercase;
+      padding: 4px 0 14px 0;
+      transition: all .5s;
+      color: #edededc5;
+    }
+    
+    .card-5:hover .header-5 {
+    }
+    
+    .card-5:hover .card-5 .header-5 .title-5 {
+      padding: 0;
+    }
+    
+    .card-5 .content-5 {
+      display: block;
+      text-align: left;
+      color: #212121;
+      margin: 0 18px;
+    }
+    
+    .card-5 .content-5 p {
+      transition: all .5s;
+      font-size: .8em;
+      margin-bottom: 8px;
+    }
+    
+    .card-5 .content-5 a {
+      color: #AA7448;
+      cursor: pointer;
+      transition: all .5s;
+      font-size: .7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    
+    .card-5 .content-5 .btn-link-5:hover {
+      border-bottom: 1px solid #AA7448;
+    }
+  
+    /* 6 */
+  
+    .card-6 {
+      width: 100%;
+      height: 80%;
+      transition: all .5s;
+      box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+                 -15px -15px 30px rgba(60, 60, 60, 0.082);
+      text-align: center;
+      overflow: hidden;
+      grid-column: 4;
+      grid-row: 6;
+      background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+    }
+    
+    .card-6:hover {
+      height: 360px;
+      background: linear-gradient(360deg, #edededc5 60%, hsla(0, 0%, 13%, 1) 70%);
+    }
+    
+    .card-6 .header-6 {
+      padding: 70px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     background-image: url('../IMG/velas2.JPG');
+     background-size: cover;
+      margin-bottom: 30px;
+    }
+    
+    .card-6 .header-6 .img-box-6 {
+      width: 50px;
+    }
+    
+    .card-6 .header-6 .title-6 {
+      font-size: 1em;
+      letter-spacing: .1em;
+      font-weight: 900;
+      text-transform: uppercase;
+      padding: 4px 0 14px 0;
+      transition: all .5s;
+      color: #edededc5;
+    }
+    
+    .card-6:hover .header-6 {
+    }
+    
+    .card-6:hover .card-6 .header-6 .title-6 {
+      padding: 0;
+    }
+    
+    .card-6 .content-6 {
+      display: block;
+      text-align: left;
+      color: #212121;
+      margin: 0 18px;
+    }
+    
+    .card-6 .content-6 p {
+      transition: all .5s;
+      font-size: .8em;
+      margin-bottom: 8px;
+    }
+    
+    .card-6 .content-6 a {
+      color: #AA7448;
+      cursor: pointer;
+      transition: all .5s;
+      font-size: .7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    
+    .card-6 .content-6 .btn-link-6:hover {
+      border-bottom: 1px solid #AA7448;
+    }
+
+    /* vale presentes */
+  
+
+    .container-vale-presentes{
+      display: grid;
+      height: 80vh;
+      grid-template-columns: 10% 21.5% 7.75% 21.5% 7.75% 21.5% 10%;
+      grid-template-rows: 2.5% 95% 2.5%;
+  }
+  
+  .vale-presente-1{
+      grid-column: 2;
+      grid-row: 2;
+      background-image: url('../IMG/vale1.webp');
+      background-size: cover;
+      display: grid;
+      border-radius: 20px;
+      align-content: center;
+      justify-content: center;
+  }
+  
+  .titulo-vale-1{
+          background-color: rgb(0, 0, 0);
+          padding: 5px 10px;
+  }
+  
+  .vale-presente-1 a{
+      text-decoration: none;
+      color: white;
+      font-family: 'Julius Sans One';
+      font-size: 115%;
+  }
+  
+  .vale-presente-2{
+      grid-column: 4;
+      grid-row: 2;
+      background-image: url('../IMG/vale2.jpg');
+      background-size: cover;
+      display: grid;
+      border-radius: 20px;
+      align-content: center;
+      justify-content: center;
+  }
+  
+  .titulo-vale-2{
+          background-color: rgb(0, 0, 0);
+          padding: 5px 10px;
+  }
+  
+  .vale-presente-2 a{
+      text-decoration: none;
+      color: white;
+      font-family: 'Julius Sans One';
+      font-size: 115%;
+  }
+  
+  .vale-presente-3{
+      grid-column: 6;
+      grid-row: 2;
+      background-image: url('../IMG/vale3.webp');
+      background-size: cover;
+      background-position: center;
+      display: grid;
+      border-radius: 20px;
+      align-content: center;
+      justify-content: center;
+  }
+  
+  .titulo-vale-3{
+          background-color: rgb(0, 0, 0);
+          padding: 5px 10px;
+  }
+  
+  .vale-presente-3 a{
+      text-decoration: none;
+      color: white;
+      font-family: 'Julius Sans One';
+      font-size: 115%;
+  }
+  
+  
+/* CONTIUAÇÃO DOS CARDS */
+    
+    .card-7 {
+      width: 100%;
+      height: 80%;
+      transition: all .5s;
+      box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+                 -15px -15px 30px rgba(60, 60, 60, 0.082);
+      text-align: center;
+      overflow: hidden;
+      grid-column: 2;
+      grid-row: 8;
+      background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+    }
+    
+    .card-7:hover {
+      height: 360px;
+      background: linear-gradient(360deg, #edededc5 60%, hsla(0, 0%, 13%, 1) 70%);
+    }
+    
+    .card-7 .header-7 {
+      padding: 70px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     background-image: url('../IMG/velas2.JPG');
+     background-size: cover;
+      margin-bottom: 30px;
+    }
+    
+    .card-7 .header-7 .img-box-7 {
+      width: 50px;
+    }
+    
+    .card-7 .header-7 .title-7 {
+      font-size: 1em;
+      letter-spacing: .1em;
+      font-weight: 900;
+      text-transform: uppercase;
+      padding: 4px 0 14px 0;
+      transition: all .5s;
+      color: #edededc5;
+    }
+    
+    .card-7:hover .header-7 {
+    }
+    
+    .card-7:hover .card-7 .header-7 .title-7 {
+      padding: 0;
+    }
+    
+    .card-7 .content-7 {
+      display: block;
+      text-align: left;
+      color: #212121;
+      margin: 0 18px;
+    }
+    
+    .card-7 .content-7 p {
+      transition: all .5s;
+      font-size: .8em;
+      margin-bottom: 8px;
+    }
+    
+    .card-7 .content-7 a {
+      color: #AA7448;
+      cursor: pointer;
+      transition: all .5s;
+      font-size: .7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    
+    .card-7 .content-7 .btn-link-7:hover {
+      border-bottom: 1px solid #AA7448;
+    }
+  
+  
+    .card-8 {
+      width: 100%;
+      height: 80%;
+      transition: all .5s;
+      box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+                 -15px -15px 30px rgba(60, 60, 60, 0.082);
+      text-align: center;
+      overflow: hidden;
+      grid-column: 4;
+      grid-row: 8;
+      background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+    }
+    
+    .card-8:hover {
+      height: 360px;
+      background: linear-gradient(360deg, #edededc5 60%, hsla(0, 0%, 13%, 1) 70%);
+    }
+    
+    .card-8 .header-8 {
+      padding: 70px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     background-image: url('../IMG/velas2.JPG');
+     background-size: cover;
+      margin-bottom: 30px;
+    }
+    
+    .card-8 .header-8 .img-box-8 {
+      width: 50px;
+    }
+    
+    .card-8 .header-8 .title-8 {
+      font-size: 1em;
+      letter-spacing: .1em;
+      font-weight: 900;
+      text-transform: uppercase;
+      padding: 4px 0 14px 0;
+      transition: all .5s;
+      color: #edededc5;
+    }
+    
+    .card-8:hover .header-8 {
+    }
+    
+    .card-8:hover .card-8 .header-8 .title-8 {
+      padding: 0;
+    }
+    
+    .card-8 .content-8 {
+      display: block;
+      text-align: left;
+      color: #212121;
+      margin: 0 18px;
+    }
+    
+    .card-8 .content-8 p {
+      transition: all .5s;
+      font-size: .8em;
+      margin-bottom: 8px;
+    }
+    
+    .card-8 .content-8 a {
+      color: #AA7448;
+      cursor: pointer;
+      transition: all .5s;
+      font-size: .7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    
+    .card-8 .content-8 .btn-link-8:hover {
+      border-bottom: 1px solid #AA7448;
+    }
+  
+  
+    .card-9 {
+      width: 100%;
+      height: 80%;
+      transition: all .5s;
+      box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+                 -15px -15px 30px rgba(60, 60, 60, 0.082);
+      text-align: center;
+      overflow: hidden;
+      grid-column: 6;
+      grid-row: 8;
+      background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+    }
+    
+    .card-9:hover {
+      height: 360px;
+      background: linear-gradient(360deg, #edededc5 60%, hsla(0, 0%, 13%, 1) 70%);
+    }
+    
+    .card-9 .header-9 {
+      padding: 70px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     background-image: url('../IMG/velas2.JPG');
+     background-size: cover;
+      margin-bottom: 30px;
+    }
+    
+    .card-9 .header-9 .img-box-9 {
+      width: 50px;
+    }
+    
+    .card-9 .header-9 .title-9 {
+      font-size: 1em;
+      letter-spacing: .1em;
+      font-weight: 900;
+      text-transform: uppercase;
+      padding: 4px 0 14px 0;
+      transition: all .5s;
+      color: #edededc5;
+    }
+    
+    .card-9:hover .header-9 {
+    }
+    
+    .card-9:hover .card-9 .header-9 .title-9 {
+      padding: 0;
+    }
+    
+    .card-9 .content-9 {
+      display: block;
+      text-align: left;
+      color: #212121;
+      margin: 0 18px;
+    }
+    
+    .card-9 .content-9 p {
+      transition: all .5s;
+      font-size: .8em;
+      margin-bottom: 8px;
+    }
+    
+    .card-9 .content-9 a {
+      color: #AA7448;
+      cursor: pointer;
+      transition: all .5s;
+      font-size: .7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    
+    .card-9 .content-9 .btn-link-9:hover {
+      border-bottom: 1px solid #AA7448;
+    }
+
+/* FOOTER */
 
   
+.container-linha-marrom{
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  background-color: antiquewhite;
+}
+
+.linha-marrom-separacao{
+  height: 6px;
+  background-color: #AA7448;
+  grid-column: 2;
+}
+
+.container-precisa-ajuda{
+  height: 22.5vh;
+  display: grid;
+  grid-template-columns: 10% 30% 2.5% 20% 2.5% 12.5% 2.5% 12.5% 7.5% ;
+  grid-template-rows: 100%;
+  background-color: #D9D9D9;
+}
+
+.precisa-de-ajuda{
+  grid-column: 2;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  font-family: 'Julius Sans One';
+  font-size: 150%;
+}
+
+.troca-devolucao-ajuda, .meus-pedidos-ajuda, .produtos-ajuda{
+  align-self: center;
+  justify-self: center;
+  text-decoration: none;
+  color: black;
+}
+
+.troca-devolucao-ajuda{
+  grid-column: 4;
+}
+
+.meus-pedidos-ajuda{
+  grid-column: 6;
+}
+
+.produtos-ajuda{
+  grid-column: 8;
+}
+
+.container-footer{
+  height: 40vh;
+  background-color: #3F3125;
+  display: grid;
+  grid-template-columns: 3.75% 42.5% 3.75% 3.75% 42.5% 3.75%;
+  grid-template-rows: 15% 10% 50% 10% 15%;
+}
+
+.titulo-contatos-footer{
+  grid-row: 2 ;
+  grid-column: 2;
+  align-self: flex-start;
+  justify-self: center;
+  color: white;
+  font-family: 'Julius Sans One';
+  font-size: 130%;
+}
+
+.container-contatos-footer{
+  grid-row: 3;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 4% 96%;
+  grid-template-rows: 20% 3.3% 20% 3.3% 20% 3.3% 20%;
+}
+
+.linha1-contatos{
+  display: grid;
+  grid-template-columns: 15% 85%;
+}
+
+.linha1-contatos p{
+  
+  color: white;
+  font-family: 'Julius Sans one';
+  align-self: center;
+  justify-self: center;
+}
+
+.barra-branca-1-footer{
+  background-color: #D9D9D9;
+  align-self: center;
+  height: 75%;
+}
+
+.icone-linha-2{
+  grid-row: 3;
+}
+/* GRID PARA O SAVE DE MUDANÇA DE LINHAS */
+.linha2-contatos{
+  grid-row: 3;
+  grid-column: 2;
+  
+  display: grid;
+  grid-template-columns: 20% 80%;
+
+}
+
+.linha2-contatos p{
+  align-self: center;
+  justify-self: center;
+  font-family: 'Julius Sans One';
+  color: white;
+}
+
+.barra-branca-2-footer{
+  background-color: #D9D9D9;
+  height: 75%;
+  align-self: center;
+}
+
+/* separação */
+
+.linha3-contatos{
+  grid-row: 5;
+  grid-column: 2;
+  
+  display: grid;
+  grid-template-columns: 22% 78%;
+
+}
+
+.linha3-contatos p{
+  align-self: center;
+  justify-self: center;
+  font-family: 'Julius Sans One';
+  color: white;
+}
+
+.barra-branca-3-footer{
+  background-color: #D9D9D9;
+  height: 75%;
+  align-self: center;
+}
+
+.icone-linha-3{
+  grid-row: 5;
+}
+
+/* separacao 2 */
+
+.linha4-contatos{
+  grid-row: 7 ;
+  grid-column: 2;
+  
+  display: grid;
+  grid-template-columns: 24% 76%;
+
+}
+
+.linha4-contatos p{
+  align-self: center;
+  justify-self: center;
+  font-family: 'Julius Sans One';
+  color: white;
+}
+
+.barra-branca-4-footer{
+  background-color: #D9D9D9;
+  height: 75%;
+  align-self: center;
+}
+
+.icone-linha-4{
+  grid-row: 7;
+}
+
+.container-direitos-footer{
+  grid-row-start: 4;
+  grid-row-end: 6;
+  grid-column-start: 2;
+  grid-column-end: 6;
+  display: grid;
+  justify-items: center;
+  grid-template-rows: 40% 20% 20% 20%;
+  grid-template-columns: 30% 40% 30%;
+}
+
+.direitos-linha-1{
+  grid-row: 2;
+}
+
+.direitos-linha-2{
+  grid-row: 3;
+}
+
+.direitos-linha-3{
+  grid-row: 4;
+}
+
+.container-direitos-footer p{
+  color: white;
+  grid-column: 2;
+  align-self: flex-end;
+  font-size: 80%;
+}
+
+.container-linha-vertical-footer{
+  grid-column-start:3 ;
+  grid-column-end:5 ;
+  grid-row: 3;
+  display: grid;
+}
+
+.linha-vertical-footer{
+  width: 1px;
+  justify-self: center;
+  background-color: #D9D9D9;
+}
+
+.container-logo-footer{
+  grid-column: 5;
+  grid-row: 3;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 100%;
+}
+
+.container-logo-footer img{
+  border-radius: 20px;
+  align-self: center;
+  justify-self: center;
+}
 
  
   
