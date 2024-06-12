@@ -33,7 +33,7 @@ p {
 }
 
 
-button {
+.botao-com-plantinha {
     position: relative;
     padding: 13px 35px;
     background: #f5ddb7;
@@ -101,12 +101,12 @@ button {
     z-index: -2;
   }
   
-  button:hover {
+  .botao-com-plantinha:hover {
     padding: 13px 25px;
     border-radius: 8px 8px 24px 24px;
   }
   
-  button:hover .icon-1 {
+  .botao-com-plantinha:hover .icon-1 {
     top: -250%;
     left: 50%;
     transform: translate(-50%, 0);
@@ -142,7 +142,7 @@ button {
     }
   }
   
-  button:hover .icon-2 {
+  .botao-com-plantinha:hover .icon-2 {
     position: absolute;
     top: -200%;
     left: 90%;
@@ -179,7 +179,7 @@ button {
     }
   }
   
-  button:hover .icon-3 {
+  .botao-com-plantinha:hover .icon-3 {
     position: absolute;
     top: -130%;
     left: 20%;
@@ -206,7 +206,7 @@ button {
     }
   }
   
-  button:hover .icon-4 {
+  .botao-com-plantinha:hover .icon-4 {
     position: absolute;
     top: -300%;
     left: 10%;
@@ -233,7 +233,7 @@ button {
     }
   }
   
-  button:hover .icon-5 {
+  .botao-com-plantinha:hover .icon-5 {
     position: absolute;
     top: -350%;
     left: 90%;
@@ -421,6 +421,9 @@ button {
     color: #edededc5;
   }
   
+  .close-cart-btn{
+    background-color: white;
+  }
   
   .card-1:hover .card-1 .header-1 .title-1 {
     padding: 0;
@@ -2729,7 +2732,7 @@ button {
     border-bottom: 1px solid #AA7448;
   }
 
-  /* a */
+  /* a 
 
   /* card 15 */
   
@@ -2817,8 +2820,27 @@ button {
 
   /* a */
 
+  .botao-com-plantinha{
+    position: relative; z-index: 10
+  }
   
+  .sub-botao-com-plantinha{
+shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd
+  }
   
-  
-  
-  
+
+  .sub-botao-com-plantinha-2{
+    shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd
+  }
+
+  .sub-botao-com-plantinha-3{
+    shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd
+  }
+
+  .sub-botao-com-plantinha-4{
+    shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd
+  }
+
+  .sub-botao-com-plantinha-5{
+    shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd
+  }
