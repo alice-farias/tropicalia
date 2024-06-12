@@ -868,6 +868,89 @@ p {
   
 
   
+
+    .container-vale-presentes{
+      display: grid;
+      height: 80vh;
+      grid-template-columns: 10% 21.5% 7.75% 21.5% 7.75% 21.5% 10%;
+      grid-template-rows: 2.5% 95% 2.5%;
+  }
+  
+  .vale-presente-1{
+      grid-column: 2;
+      grid-row: 2;
+      background-image: url('../IMG/vale1.webp');
+      background-size: cover;
+      display: grid;
+      border-radius: 20px;
+      align-content: center;
+      justify-content: center;
+  }
+  
+  .titulo-vale-1{
+          background-color: rgb(0, 0, 0);
+          padding: 5px 10px;
+  }
+  
+  .vale-presente-1 a{
+      text-decoration: none;
+      color: white;
+      font-family: 'Julius Sans One';
+      font-size: 115%;
+  }
+  
+  .vale-presente-2{
+      grid-column: 4;
+      grid-row: 2;
+      background-image: url('../IMG/vale2.jpg');
+      background-size: cover;
+      display: grid;
+      border-radius: 20px;
+      align-content: center;
+      justify-content: center;
+  }
+  
+  .titulo-vale-2{
+          background-color: rgb(0, 0, 0);
+          padding: 5px 10px;
+  }
+  
+  .vale-presente-2 a{
+      text-decoration: none;
+      color: white;
+      font-family: 'Julius Sans One';
+      font-size: 115%;
+  }
+  
+  .vale-presente-3{
+      grid-column: 6;
+      grid-row: 2;
+      background-image: url('../IMG/vale3.webp');
+      background-size: cover;
+      background-position: center;
+      display: grid;
+      border-radius: 20px;
+      align-content: center;
+      justify-content: center;
+  }
+  
+  .titulo-vale-3{
+          background-color: rgb(0, 0, 0);
+          padding: 5px 10px;
+  }
+  
+  .vale-presente-3 a{
+      text-decoration: none;
+      color: white;
+      font-family: 'Julius Sans One';
+      font-size: 115%;
+  }
+  
+  
+/* CONTIUAÇÃO DOS CARDS */
+
+
+
     /* a */
   
     .container-produtos-7{
@@ -1163,7 +1246,7 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-   background-image: url('../IMG/vale1.webp');
+   background-image: url('../IMG/TROCARIMAGEM1.webp');
    background-size: cover;
     margin-bottom: 30px;
   }
@@ -1247,7 +1330,7 @@ p {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-     background-image: url('../IMG/vale1.webp');
+     background-image: url('../IMG/TROCARIMAGEM.webp');
      background-size: cover;
       margin-bottom: 30px;
     }
@@ -1331,7 +1414,7 @@ p {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-       background-image: url('../IMG/vale1.webp');
+       background-image: url('../IMG/TROCARIMAGEM.webp');
        background-size: cover;
         margin-bottom: 30px;
       }
@@ -1386,335 +1469,6 @@ p {
 
     /* vale presentes */
   
-
-    .container-vale-presentes{
-      display: grid;
-      height: 80vh;
-      grid-template-columns: 10% 21.5% 7.75% 21.5% 7.75% 21.5% 10%;
-      grid-template-rows: 2.5% 95% 2.5%;
-  }
-  
-  .vale-presente-1{
-      grid-column: 2;
-      grid-row: 2;
-      background-image: url('../IMG/vale1.webp');
-      background-size: cover;
-      display: grid;
-      border-radius: 20px;
-      align-content: center;
-      justify-content: center;
-  }
-  
-  .titulo-vale-1{
-          background-color: rgb(0, 0, 0);
-          padding: 5px 10px;
-  }
-  
-  .vale-presente-1 a{
-      text-decoration: none;
-      color: white;
-      font-family: 'Julius Sans One';
-      font-size: 115%;
-  }
-  
-  .vale-presente-2{
-      grid-column: 4;
-      grid-row: 2;
-      background-image: url('../IMG/vale2.jpg');
-      background-size: cover;
-      display: grid;
-      border-radius: 20px;
-      align-content: center;
-      justify-content: center;
-  }
-  
-  .titulo-vale-2{
-          background-color: rgb(0, 0, 0);
-          padding: 5px 10px;
-  }
-  
-  .vale-presente-2 a{
-      text-decoration: none;
-      color: white;
-      font-family: 'Julius Sans One';
-      font-size: 115%;
-  }
-  
-  .vale-presente-3{
-      grid-column: 6;
-      grid-row: 2;
-      background-image: url('../IMG/vale3.webp');
-      background-size: cover;
-      background-position: center;
-      display: grid;
-      border-radius: 20px;
-      align-content: center;
-      justify-content: center;
-  }
-  
-  .titulo-vale-3{
-          background-color: rgb(0, 0, 0);
-          padding: 5px 10px;
-  }
-  
-  .vale-presente-3 a{
-      text-decoration: none;
-      color: white;
-      font-family: 'Julius Sans One';
-      font-size: 115%;
-  }
-  
-  
-/* CONTIUAÇÃO DOS CARDS */
-    
-.card-13 {
-  width: 100%;
-  height: 80%; /* Altura original */
-  transition: height .5s, background .5s; /* Transição para altura e background */
-  box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
-             -15px -15px 30px rgba(60, 60, 60, 0.082);
-  text-align: center;
-  overflow: hidden;
-  grid-column: 2;
-  grid-row: 1;
-  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
-}
-
-.card-13:hover {
-  height: 360px; /* Altura aumentada durante o hover */
-  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
-}
-  
-  .card-13:hover {
-    height: 360px;
-    background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
-  }
-  
-  .card-13 .header-13 {
-    padding: 70px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   background-image: url('../IMG/vale1.webp');
-   background-size: cover;
-    margin-bottom: 30px;
-  }
-
-  
-  .card-13 .header-13 .img-box-13 {
-    width: 50px;
-  }
-  
-  .card-13 .header-13 .title-13 {
-    font-size: 1em;
-    letter-spacing: .1em;
-    font-weight: 900;
-    text-transform: uppercase;
-    padding: 4px 0 14px 0;
-    transition: all .5s;
-    color: #edededc5;
-  }
-  
-  
-  .card-13:hover .card-13 .header-13 .title-13 {
-    padding: 0;
-  }
-  
-  .card-13 .content-13 {
-    display: block;
-    text-align: left;
-    color: #212121;
-    margin: 0 18px;
-  }
-  
-  .card-13 .content-13 p {
-    transition: all .5s;
-    font-size: .8em;
-    margin-bottom: 8px;
-  }
-  
-  .card-13 .content-13 a {
-    color: #AA7448;
-    cursor: pointer;
-    transition: all .5s;
-    font-size: .7rem;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-  
-  .card-13 .content-13 .btn-link-13:hover {
-    border-bottom: 1px solid #AA7448;
-  }
-
-  /* a */
-  
-  
-  .card-14 {
-    width: 100%;
-    height: 80%; /* Altura original */
-    transition: height .5s, background .5s; /* Transição para altura e background */
-    box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
-               -15px -15px 30px rgba(60, 60, 60, 0.082);
-    text-align: center;
-    overflow: hidden;
-    grid-column: 4;
-    grid-row: 1;
-    background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
-  }
-  
-  .card-14:hover {
-    height: 360px; /* Altura aumentada durante o hover */
-    background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
-  }
-    
-    .card-14:hover {
-      height: 360px;
-      background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
-    }
-    
-    .card-14 .header-14 {
-      padding: 70px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-     background-image: url('../IMG/vale1.webp');
-     background-size: cover;
-      margin-bottom: 30px;
-    }
-  
-    
-    .card-14 .header-14 .img-box-14 {
-      width: 50px;
-    }
-    
-    .card-14 .header-14 .title-14 {
-      font-size: 1em;
-      letter-spacing: .1em;
-      font-weight: 900;
-      text-transform: uppercase;
-      padding: 4px 0 14px 0;
-      transition: all .5s;
-      color: #edededc5;
-    }
-    
-    
-    .card-14:hover .card-14 .header-14 .title-14 {
-      padding: 0;
-    }
-    
-    .card-14 .content-14 {
-      display: block;
-      text-align: left;
-      color: #212121;
-      margin: 0 18px;
-    }
-    
-    .card-14 .content-14 p {
-      transition: all .5s;
-      font-size: .8em;
-      margin-bottom: 8px;
-    }
-    
-    .card-14 .content-14 a {
-      color: #AA7448;
-      cursor: pointer;
-      transition: all .5s;
-      font-size: .7rem;
-      font-weight: 700;
-      text-transform: uppercase;
-    }
-    
-    .card-14 .content-14 .btn-link-14:hover {
-      border-bottom: 1px solid #AA7448;
-    }
-  
-    /* fim do 14 */
-  
-    /* card 15 */
-  
-  
-      
-.card-15 {
-  width: 100%;
-  height: 80%; /* Altura original */
-  transition: height .5s, background .5s; /* Transição para altura e background */
-  box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
-             -15px -15px 30px rgba(60, 60, 60, 0.082);
-  text-align: center;
-  overflow: hidden;
-  grid-column: 6;
-  grid-row: 1;
-  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
-}
-
-.card-15:hover {
-  height: 360px; /* Altura aumentada durante o hover */
-  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
-}
-  
-  .card-15:hover {
-    height: 360px;
-    background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
-  }
-  
-  .card-15 .header-15 {
-    padding: 70px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   background-image: url('../IMG/vale1.webp');
-   background-size: cover;
-    margin-bottom: 30px;
-  }
-
-  
-  .card-15 .header-15 .img-box-15 {
-    width: 50px;
-  }
-  
-  .card-15 .header-15 .title-15 {
-    font-size: 1em;
-    letter-spacing: .1em;
-    font-weight: 900;
-    text-transform: uppercase;
-    padding: 4px 0 14px 0;
-    transition: all .5s;
-    color: #edededc5;
-  }
-  
-  
-  .card-15:hover .card-15 .header-15 .title-15 {
-    padding: 0;
-  }
-  
-  .card-15 .content-15 {
-    display: block;
-    text-align: left;
-    color: #212121;
-    margin: 0 18px;
-  }
-  
-  .card-15 .content-15 p {
-    transition: all .5s;
-    font-size: .8em;
-    margin-bottom: 8px;
-  }
-  
-  .card-15 .content-15 a {
-    color: #AA7448;
-    cursor: pointer;
-    transition: all .5s;
-    font-size: .7rem;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-  
-  .card-15 .content-15 .btn-link-15:hover {
-    border-bottom: 1px solid #AA7448;
-  }
 
 /* FOOTER */
 
@@ -2123,271 +1877,268 @@ p {
   
 
 
+  /* ULTIMA LINHA DE CARDS */
 
-
-
-
-
-
-
-
-
-  
-
-      
-.card-13 {
-  width: 100%;
-  height: 80%; /* Altura original */
-  transition: height .5s, background .5s; /* Transição para altura e background */
-  box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
-             -15px -15px 30px rgba(60, 60, 60, 0.082);
-  text-align: center;
-  overflow: hidden;
-  grid-column: 2;
-  grid-row: 1;
-  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
-}
-
-.card-13:hover {
-  height: 360px; /* Altura aumentada durante o hover */
-  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
-}
+    
+  .card-13 {
+    width: 100%;
+    height: 80%; /* Altura original */
+    transition: height .5s, background .5s; /* Transição para altura e background */
+    box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+               -15px -15px 30px rgba(60, 60, 60, 0.082);
+    text-align: center;
+    overflow: hidden;
+    grid-column: 2;
+    grid-row: 1;
+    background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+  }
   
   .card-13:hover {
-    height: 360px;
+    height: 360px; /* Altura aumentada durante o hover */
     background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
   }
-  
-  .card-13 .header-13 {
-    padding: 70px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   background-image: url('../IMG/vale1.webp');
-   background-size: cover;
-    margin-bottom: 30px;
-  }
+    
+    .card-13:hover {
+      height: 360px;
+      background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+    }
+    
+    .card-13 .header-13 {
+      padding: 70px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     background-image: url('../IMG/TROCARIMAGEM.webp');
+     background-size: cover;
+      margin-bottom: 30px;
+    }
 
+    
+    .card-13 .header-13 .img-box-13 {
+      width: 50px;
+    }
+    
+    .card-13 .header-13 .title-13 {
+      font-size: 1em;
+      letter-spacing: .1em;
+      font-weight: 900;
+      text-transform: uppercase;
+      padding: 4px 0 14px 0;
+      transition: all .5s;
+      color: #edededc5;
+    }
+    
+    
+    .card-13:hover .card-13 .header-13 .title-13 {
+      padding: 0;
+    }
+    
+    .card-13 .content-13 {
+      display: block;
+      text-align: left;
+      color: #212121;
+      margin: 0 18px;
+    }
+    
+    .card-13 .content-13 p {
+      transition: all .5s;
+      font-size: .8em;
+      margin-bottom: 8px;
+    }
+    
+    .card-13 .content-13 a {
+      color: #AA7448;
+      cursor: pointer;
+      transition: all .5s;
+      font-size: .7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    
+    .card-13 .content-13 .btn-link-13:hover {
+      border-bottom: 1px solid #AA7448;
+    }
   
-  .card-13 .header-13 .img-box-13 {
-    width: 50px;
-  }
-  
-  .card-13 .header-13 .title-13 {
-    font-size: 1em;
-    letter-spacing: .1em;
-    font-weight: 900;
-    text-transform: uppercase;
-    padding: 4px 0 14px 0;
-    transition: all .5s;
-    color: #edededc5;
-  }
-  
-  
-  .card-13:hover .card-13 .header-13 .title-13 {
-    padding: 0;
-  }
-  
-  .card-13 .content-13 {
-    display: block;
-    text-align: left;
-    color: #212121;
-    margin: 0 18px;
-  }
-  
-  .card-13 .content-13 p {
-    transition: all .5s;
-    font-size: .8em;
-    margin-bottom: 8px;
-  }
-  
-  .card-13 .content-13 a {
-    color: #AA7448;
-    cursor: pointer;
-    transition: all .5s;
-    font-size: .7rem;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-  
-  .card-13 .content-13 .btn-link-13:hover {
-    border-bottom: 1px solid #AA7448;
-  }
-
-  /* a */
-
-  /* card 14 */
-  
-
-
-  
+    /* a */
+    
+    
+    .card-14 {
+      width: 100%;
+      height: 80%; /* Altura original */
+      transition: height .5s, background .5s; /* Transição para altura e background */
+      box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+                 -15px -15px 30px rgba(60, 60, 60, 0.082);
+      text-align: center;
+      overflow: hidden;
+      grid-column: 4;
+      grid-row: 1;
+      background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+    }
+    
+    .card-14:hover {
+      height: 360px; /* Altura aumentada durante o hover */
+      background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+    }
       
-.card-14 {
-  width: 100%;
-  height: 80%; /* Altura original */
-  transition: height .5s, background .5s; /* Transição para altura e background */
-  box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
-             -15px -15px 30px rgba(60, 60, 60, 0.082);
-  text-align: center;
-  overflow: hidden;
-  grid-column: 4;
-  grid-row: 1;
-  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
-}
-
-.card-14:hover {
-  height: 360px; /* Altura aumentada durante o hover */
-  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
-}
-  
-  .card-14:hover {
-    height: 360px;
+      .card-14:hover {
+        height: 360px;
+        background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+      }
+      
+      .card-14 .header-14 {
+        padding: 70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       background-image: url('../IMG/TROCARIMAGEM.webp');
+       background-size: cover;
+        margin-bottom: 30px;
+      }
+    
+      
+      .card-14 .header-14 .img-box-14 {
+        width: 50px;
+      }
+      
+      .card-14 .header-14 .title-14 {
+        font-size: 1em;
+        letter-spacing: .1em;
+        font-weight: 900;
+        text-transform: uppercase;
+        padding: 4px 0 14px 0;
+        transition: all .5s;
+        color: #edededc5;
+      }
+      
+      
+      .card-14:hover .card-14 .header-14 .title-14 {
+        padding: 0;
+      }
+      
+      .card-14 .content-14 {
+        display: block;
+        text-align: left;
+        color: #212121;
+        margin: 0 18px;
+      }
+      
+      .card-14 .content-14 p {
+        transition: all .5s;
+        font-size: .8em;
+        margin-bottom: 8px;
+      }
+      
+      .card-14 .content-14 a {
+        color: #AA7448;
+        cursor: pointer;
+        transition: all .5s;
+        font-size: .7rem;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+      
+      .card-14 .content-14 .btn-link-14:hover {
+        border-bottom: 1px solid #AA7448;
+      }
+    
+      /* fim do 14 */
+    
+      /* card 15 */
+    
+    
+        
+  .card-15 {
+    width: 100%;
+    height: 80%; /* Altura original */
+    transition: height .5s, background .5s; /* Transição para altura e background */
+    box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+               -15px -15px 30px rgba(60, 60, 60, 0.082);
+    text-align: center;
+    overflow: hidden;
+    grid-column: 6;
+    grid-row: 1;
     background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
   }
-  
-  .card-14 .header-14 {
-    padding: 70px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   background-image: url('../IMG/vale1.webp');
-   background-size: cover;
-    margin-bottom: 30px;
-  }
-
-  
-  .card-14 .header-14 .img-box-14 {
-    width: 50px;
-  }
-  
-  .card-14 .header-14 .title-14 {
-    font-size: 1em;
-    letter-spacing: .1em;
-    font-weight: 900;
-    text-transform: uppercase;
-    padding: 4px 0 14px 0;
-    transition: all .5s;
-    color: #edededc5;
-  }
-  
-  
-  .card-14:hover .card-14 .header-14 .title-14 {
-    padding: 0;
-  }
-  
-  .card-14 .content-14 {
-    display: block;
-    text-align: left;
-    color: #212121;
-    margin: 0 18px;
-  }
-  
-  .card-14 .content-14 p {
-    transition: all .5s;
-    font-size: .8em;
-    margin-bottom: 8px;
-  }
-  
-  .card-14 .content-14 a {
-    color: #AA7448;
-    cursor: pointer;
-    transition: all .5s;
-    font-size: .7rem;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-  
-  .card-14 .content-14 .btn-link-14:hover {
-    border-bottom: 1px solid #AA7448;
-  }
-
-  /* a 
-
-  /* card 15 */
-  
-  
-      
-.card-15 {
-  width: 100%;
-  height: 80%; /* Altura original */
-  transition: height .5s, background .5s; /* Transição para altura e background */
-  box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
-             -15px -15px 30px rgba(60, 60, 60, 0.082);
-  text-align: center;
-  overflow: hidden;
-  grid-column: 6;
-  grid-row: 1;
-  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
-}
-
-.card-15:hover {
-  height: 360px; /* Altura aumentada durante o hover */
-  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
-}
   
   .card-15:hover {
-    height: 360px;
+    height: 360px; /* Altura aumentada durante o hover */
     background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
   }
+    
+    .card-15:hover {
+      height: 360px;
+      background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+    }
+    
+    .card-15 .header-15 {
+      padding: 70px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+     background-image: url('../IMG/TROCARIMAGEM.webp');
+     background-size: cover;
+      margin-bottom: 30px;
+    }
   
-  .card-15 .header-15 {
-    padding: 70px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-   background-image: url('../IMG/vale1.webp');
-   background-size: cover;
-    margin-bottom: 30px;
-  }
+    
+    .card-15 .header-15 .img-box-15 {
+      width: 50px;
+    }
+    
+    .card-15 .header-15 .title-15 {
+      font-size: 1em;
+      letter-spacing: .1em;
+      font-weight: 900;
+      text-transform: uppercase;
+      padding: 4px 0 14px 0;
+      transition: all .5s;
+      color: #edededc5;
+    }
+    
+    
+    .card-15:hover .card-15 .header-15 .title-15 {
+      padding: 0;
+    }
+    
+    .card-15 .content-15 {
+      display: block;
+      text-align: left;
+      color: #212121;
+      margin: 0 18px;
+    }
+    
+    .card-15 .content-15 p {
+      transition: all .5s;
+      font-size: .8em;
+      margin-bottom: 8px;
+    }
+    
+    .card-15 .content-15 a {
+      color: #AA7448;
+      cursor: pointer;
+      transition: all .5s;
+      font-size: .7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    
+    .card-15 .content-15 .btn-link-15:hover {
+      border-bottom: 1px solid #AA7448;
+    }
+  
+
+
+
+
+
+
 
   
-  .card-15 .header-15 .img-box-15 {
-    width: 50px;
-  }
-  
-  .card-15 .header-15 .title-15 {
-    font-size: 1em;
-    letter-spacing: .1em;
-    font-weight: 900;
-    text-transform: uppercase;
-    padding: 4px 0 14px 0;
-    transition: all .5s;
-    color: #edededc5;
-  }
-  
-  
-  .card-15:hover .card-15 .header-15 .title-15 {
-    padding: 0;
-  }
-  
-  .card-15 .content-15 {
-    display: block;
-    text-align: left;
-    color: #212121;
-    margin: 0 18px;
-  }
-  
-  .card-15 .content-15 p {
-    transition: all .5s;
-    font-size: .8em;
-    margin-bottom: 8px;
-  }
-  
-  .card-15 .content-15 a {
-    color: #AA7448;
-    cursor: pointer;
-    transition: all .5s;
-    font-size: .7rem;
-    font-weight: 700;
-    text-transform: uppercase;
-  }
-  
-  .card-15 .content-15 .btn-link-15:hover {
-    border-bottom: 1px solid #AA7448;
-  }
+
+      
 
   /* a */
 
