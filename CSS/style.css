@@ -11,7 +11,7 @@ h2 {
 }
 
 body{
-  background-color: antiquewhite;
+  background-color: #f9e8cc;
 }
 
 section {
@@ -30,6 +30,10 @@ p {
 .navbar-nav {
     margin-left: auto;
     margin-right: 10vh;
+}
+
+#carouselExampleSlidesOnly {
+  margin-top: 10vh;
 }
 
 
@@ -482,7 +486,7 @@ p {
     align-items: center;
     justify-content: center;
    background-image: url('../IMG/produto1.png');
-   background-size: cover;
+    background-size: cover;
     margin-bottom: 30px;
   }
   
@@ -557,7 +561,7 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('../IMG/vale1.webp');
+    background-image: url('../IMG/produto1.png');
    background-size: cover;
     margin-bottom: 30px;
   }
@@ -635,7 +639,7 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('../IMG/vale1.webp');
+    background-image: url('../IMG/produto3.png');
    background-size: cover;
     margin-bottom: 30px;
   }
@@ -715,7 +719,7 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('../IMG/vale1.webp');
+    background-image: url('../IMG/produto4.png');
    background-size: cover;
     margin-bottom: 30px;
   }
@@ -793,7 +797,7 @@ p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url('../IMG/vale1.webp');
+    background-image: url('../IMG/produto5.png');
    background-size: cover;
     margin-bottom: 30px;
   }
