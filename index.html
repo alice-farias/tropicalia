@@ -30,6 +30,11 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contatos</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" onclick="openCart()"> <img src="./IMG/carrinho.png" width="20px">
+                              <span id="cart-item-count">0</span>
+                            </a>
+                          </li>
                     </ul>
                 </div>
             </div>
@@ -41,6 +46,30 @@
                 <img src="./IMG/banner.png" class="d-block w-100" alt="...">
               </div>
           </div>
+
+
+          <div class="cart-sidebar">
+            <div class="cart-header">
+              <h4>Carrinho</h4>
+              <button class="close-cart-btn" onclick="closeCart()"> X </button>
+            </div>
+            <div class="cart-items">
+              <div class="item-image">
+                <!-- Adicione esta linha para exibir a imagem -->
+      
+              </div>
+              <!-- Itens do carrinho serão adicionados dinamicamente aqui -->
+            </div>
+            <div class="cart-total">
+              <h5>Total: <span id="cart-total">R$ 0,00</span></h5>
+            </div>
+            <div class="cart-buttons">
+              <button class="continue-btn" onclick="continueShopping()">Continuar</button>
+              <button class="cancel-btn" onclick="cancelAndCloseCart()">Cancelar</button>
+            </div>
+          </div>
+
+
     </header>
 
     
@@ -70,7 +99,7 @@
               adipiscing it amet it...
           </p>
   
-          <a class="btn-link-1">Comprar</a>
+          <a class="btn-link-1" onclick="addItemToCart({ image: './IMG/produto1.png' ,name: 'Camisa Floral', price: 49.99 }, event)">Comprar</a>
       </div>
   </div>
 
@@ -648,7 +677,7 @@
     
     
  
-
+    <script src="./JS/main.js"></script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
