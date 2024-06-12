@@ -2012,6 +2012,813 @@ button {
   color: #fff;
 }
 
+/* CARDS 7 - 14 */
 
+.container-produtos-destaque-2{
+  height: 10vh;
+  display: grid;
+  align-content: center;
+  grid-template-columns: 10% 90%;
+}
+
+.container-produtos-destaque-2 p{
+  font-family: 'Julius Sans One';
+  grid-column: 2;
+  font-size: 150%;
+  text-decoration: underline 1px;
+}
  
+
+.container-produtos-7{
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 0% 0% 0% 40% 10% 40% 10%;
+  grid-template-columns: 10% 21.66% 7.5% 21.66% 7.5% 21.66% 10%;
+}
+
+.card-7 {
+  width: 100%;
+  height: 80%; /* Altura original */
+  transition: height .5s, background .5s; /* Transição para altura e background */
+  box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+             -15px -15px 30px rgba(60, 60, 60, 0.082);
+  text-align: center;
+  overflow: hidden;
+  grid-column: 2;
+  grid-row: 4;
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+
+.card-7:hover {
+  height: 360px; /* Altura aumentada durante o hover */
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+  
+  .card-7:hover {
+    height: 360px;
+    background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+  }
+  
+  .card-7 .header-7 {
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   background-image: url('../IMG/vale1.webp');
+   background-size: cover;
+    margin-bottom: 30px;
+  }
+
+  
+  .card-7 .header-7 .img-box-7 {
+    width: 50px;
+  }
+  
+  .card-7 .header-7 .title-7 {
+    font-size: 1em;
+    letter-spacing: .1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 4px 0 14px 0;
+    transition: all .5s;
+    color: #edededc5;
+  }
+  
+  
+  .card-7:hover .card-7 .header-7 .title-7 {
+    padding: 0;
+  }
+  
+  .card-7 .content-7 {
+    display: block;
+    text-align: left;
+    color: #212121;
+    margin: 0 18px;
+  }
+  
+  .card-7 .content-7 p {
+    transition: all .5s;
+    font-size: .8em;
+    margin-bottom: 8px;
+  }
+  
+  .card-7 .content-7 a {
+    color: #AA7448;
+    cursor: pointer;
+    transition: all .5s;
+    font-size: .7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .card-7 .content-7 .btn-link-7:hover {
+    border-bottom: 1px solid #AA7448;
+  }
+
+  /* a */
+
+
+  /* CARD 8 */
+  
+
+  
+.card-8 {
+  width: 100%;
+  height: 80%; /* Altura original */
+  transition: height .5s, background .5s; /* Transição para altura e background */
+  box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+             -15px -15px 30px rgba(60, 60, 60, 0.082);
+  text-align: center;
+  overflow: hidden;
+  grid-column: 4;
+  grid-row: 4;
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+
+.card-8:hover {
+  height: 360px; /* Altura aumentada durante o hover */
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+  
+  .card-8:hover {
+    height: 360px;
+    background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+  }
+  
+  .card-8 .header-8 {
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   background-image: url('../IMG/vale1.webp');
+   background-size: cover;
+    margin-bottom: 30px;
+  }
+
+  
+  .card-8 .header-8 .img-box-8 {
+    width: 50px;
+  }
+  
+  .card-8 .header-8 .title-8 {
+    font-size: 1em;
+    letter-spacing: .1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 4px 0 14px 0;
+    transition: all .5s;
+    color: #edededc5;
+  }
+  
+  
+  .card-8:hover .card-8 .header-8 .title-8 {
+    padding: 0;
+  }
+  
+  .card-8 .content-8 {
+    display: block;
+    text-align: left;
+    color: #212121;
+    margin: 0 18px;
+  }
+  
+  .card-8 .content-8 p {
+    transition: all .5s;
+    font-size: .8em;
+    margin-bottom: 8px;
+  }
+  
+  .card-8 .content-8 a {
+    color: #AA7448;
+    cursor: pointer;
+    transition: all .5s;
+    font-size: .7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .card-8 .content-8 .btn-link-8:hover {
+    border-bottom: 1px solid #AA7448;
+  }
+
+  /* a */
+
+  /* card 9 */
+
+  
+.card-9 {
+  width: 100%;
+  height: 80%; /* Altura original */
+  transition: height .5s, background .5s; /* Transição para altura e background */
+  box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+             -15px -15px 30px rgba(60, 60, 60, 0.082);
+  text-align: center;
+  overflow: hidden;
+  grid-column: 6;
+  grid-row: 4;
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+
+.card-9:hover {
+  height: 360px; /* Altura aumentada durante o hover */
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+  
+  .card-9:hover {
+    height: 360px;
+    background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+  }
+  
+  .card-9 .header-9 {
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   background-image: url('../IMG/vale1.webp');
+   background-size: cover;
+    margin-bottom: 30px;
+  }
+
+  
+  .card-9 .header-9 .img-box-9 {
+    width: 50px;
+  }
+  
+  .card-9 .header-9 .title-9 {
+    font-size: 1em;
+    letter-spacing: .1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 4px 0 14px 0;
+    transition: all .5s;
+    color: #edededc5;
+  }
+  
+  
+  .card-9:hover .card-9 .header-9 .title-9 {
+    padding: 0;
+  }
+  
+  .card-9 .content-9 {
+    display: block;
+    text-align: left;
+    color: #212121;
+    margin: 0 18px;
+  }
+  
+  .card-9 .content-9 p {
+    transition: all .5s;
+    font-size: .8em;
+    margin-bottom: 8px;
+  }
+  
+  .card-9 .content-9 a {
+    color: #AA7448;
+    cursor: pointer;
+    transition: all .5s;
+    font-size: .7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .card-9 .content-9 .btn-link-9:hover {
+    border-bottom: 1px solid #AA7448;
+  }
+
+  /* a */
+
+  
+/* card 10 */
+  
+  
+     
+.card-10 {
+  width: 100%;
+  height: 80%; /* Altura original */
+  transition: height .5s, background .5s; /* Transição para altura e background */
+  box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+             -15px -15px 30px rgba(60, 60, 60, 0.082);
+  text-align: center;
+  overflow: hidden;
+  grid-column: 2;
+  grid-row: 6;
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+
+.card-10:hover {
+  height: 360px; /* Altura aumentada durante o hover */
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+  
+  .card-10:hover {
+    height: 360px;
+    background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+  }
+  
+  .card-10 .header-10 {
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   background-image: url('../IMG/vale1.webp');
+   background-size: cover;
+    margin-bottom: 30px;
+  }
+
+  
+  .card-10 .header-10 .img-box-10 {
+    width: 50px;
+  }
+  
+  .card-10 .header-10 .title-10 {
+    font-size: 1em;
+    letter-spacing: .1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 4px 0 14px 0;
+    transition: all .5s;
+    color: #edededc5;
+  }
+  
+  
+  .card-10:hover .card-10 .header-10 .title-10 {
+    padding: 0;
+  }
+  
+  .card-10 .content-10 {
+    display: block;
+    text-align: left;
+    color: #212121;
+    margin: 0 18px;
+  }
+  
+  .card-10 .content-10 p {
+    transition: all .5s;
+    font-size: .8em;
+    margin-bottom: 8px;
+  }
+  
+  .card-10 .content-10 a {
+    color: #AA7448;
+    cursor: pointer;
+    transition: all .5s;
+    font-size: .7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .card-10 .content-10 .btn-link-10:hover {
+    border-bottom: 1px solid #AA7448;
+  }
+
+  /* a */
+
+  /* card 11 */
+  
+  
+      
+.card-11 {
+  width: 100%;
+  height: 80%; /* Altura original */
+  transition: height .5s, background .5s; /* Transição para altura e background */
+  box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+             -15px -15px 30px rgba(60, 60, 60, 0.082);
+  text-align: center;
+  overflow: hidden;
+  grid-column: 4;
+  grid-row: 6;
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+
+.card-11:hover {
+  height: 360px; /* Altura aumentada durante o hover */
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+  
+  .card-11:hover {
+    height: 360px;
+    background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+  }
+  
+  .card-11 .header-11 {
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   background-image: url('../IMG/vale1.webp');
+   background-size: cover;
+    margin-bottom: 30px;
+  }
+
+  
+  .card-11 .header-11 .img-box-11 {
+    width: 50px;
+  }
+  
+  .card-11 .header-11 .title-11 {
+    font-size: 1em;
+    letter-spacing: .1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 4px 0 14px 0;
+    transition: all .5s;
+    color: #edededc5;
+  }
+  
+  
+  .card-11:hover .card-11 .header-11 .title-11 {
+    padding: 0;
+  }
+  
+  .card-11 .content-11 {
+    display: block;
+    text-align: left;
+    color: #212121;
+    margin: 0 18px;
+  }
+  
+  .card-11 .content-11 p {
+    transition: all .5s;
+    font-size: .8em;
+    margin-bottom: 8px;
+  }
+  
+  .card-11 .content-11 a {
+    color: #AA7448;
+    cursor: pointer;
+    transition: all .5s;
+    font-size: .7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .card-11 .content-11 .btn-link-11:hover {
+    border-bottom: 1px solid #AA7448;
+  }
+
+  /* a */
+
+  /* card 11 */
+  
+
+     
+.card-12 {
+  width: 100%;
+  height: 80%; /* Altura original */
+  transition: height .5s, background .5s; /* Transição para altura e background */
+  box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+             -15px -15px 30px rgba(60, 60, 60, 0.082);
+  text-align: center;
+  overflow: hidden;
+  grid-column: 6;
+  grid-row: 6;
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+
+.card-12:hover {
+  height: 360px; /* Altura aumentada durante o hover */
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+  
+  .card-12:hover {
+    height: 360px;
+    background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+  }
+  
+  .card-12 .header-12 {
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   background-image: url('../IMG/vale1.webp');
+   background-size: cover;
+    margin-bottom: 30px;
+  }
+
+  
+  .card-12 .header-12 .img-box-12 {
+    width: 50px;
+  }
+  
+  .card-12 .header-12 .title-12 {
+    font-size: 1em;
+    letter-spacing: .1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 4px 0 14px 0;
+    transition: all .5s;
+    color: #edededc5;
+  }
+  
+  
+  .card-12:hover .card-12 .header-12 .title-12 {
+    padding: 0;
+  }
+  
+  .card-12 .content-12 {
+    display: block;
+    text-align: left;
+    color: #212121;
+    margin: 0 18px;
+  }
+  
+  .card-12 .content-12 p {
+    transition: all .5s;
+    font-size: .8em;
+    margin-bottom: 8px;
+  }
+  
+  .card-12 .content-12 a {
+    color: #AA7448;
+    cursor: pointer;
+    transition: all .5s;
+    font-size: .7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .card-12 .content-12 .btn-link-12:hover {
+    border-bottom: 1px solid #AA7448;
+  }
+
+  /* a */
+
+  .mini-container-cards{
+    display: grid;
+    height: 50vh;
+    grid-template-rows: 80% 20% ;
+    grid-template-columns: 10% 21.66% 7.5% 21.66% 7.5% 21.66% 10%;
+  }
+  
+  
+  
+  
+
+      
+.card-13 {
+  width: 100%;
+  height: 80%; /* Altura original */
+  transition: height .5s, background .5s; /* Transição para altura e background */
+  box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+             -15px -15px 30px rgba(60, 60, 60, 0.082);
+  text-align: center;
+  overflow: hidden;
+  grid-column: 2;
+  grid-row: 1;
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+
+.card-13:hover {
+  height: 360px; /* Altura aumentada durante o hover */
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+  
+  .card-13:hover {
+    height: 360px;
+    background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+  }
+  
+  .card-13 .header-13 {
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   background-image: url('../IMG/vale1.webp');
+   background-size: cover;
+    margin-bottom: 30px;
+  }
+
+  
+  .card-13 .header-13 .img-box-13 {
+    width: 50px;
+  }
+  
+  .card-13 .header-13 .title-13 {
+    font-size: 1em;
+    letter-spacing: .1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 4px 0 14px 0;
+    transition: all .5s;
+    color: #edededc5;
+  }
+  
+  
+  .card-13:hover .card-13 .header-13 .title-13 {
+    padding: 0;
+  }
+  
+  .card-13 .content-13 {
+    display: block;
+    text-align: left;
+    color: #212121;
+    margin: 0 18px;
+  }
+  
+  .card-13 .content-13 p {
+    transition: all .5s;
+    font-size: .8em;
+    margin-bottom: 8px;
+  }
+  
+  .card-13 .content-13 a {
+    color: #AA7448;
+    cursor: pointer;
+    transition: all .5s;
+    font-size: .7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .card-13 .content-13 .btn-link-13:hover {
+    border-bottom: 1px solid #AA7448;
+  }
+
+  /* a */
+
+  /* card 14 */
+  
+
+
+  
+      
+.card-14 {
+  width: 100%;
+  height: 80%; /* Altura original */
+  transition: height .5s, background .5s; /* Transição para altura e background */
+  box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+             -15px -15px 30px rgba(60, 60, 60, 0.082);
+  text-align: center;
+  overflow: hidden;
+  grid-column: 4;
+  grid-row: 1;
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+
+.card-14:hover {
+  height: 360px; /* Altura aumentada durante o hover */
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+  
+  .card-14:hover {
+    height: 360px;
+    background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+  }
+  
+  .card-14 .header-14 {
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   background-image: url('../IMG/vale1.webp');
+   background-size: cover;
+    margin-bottom: 30px;
+  }
+
+  
+  .card-14 .header-14 .img-box-14 {
+    width: 50px;
+  }
+  
+  .card-14 .header-14 .title-14 {
+    font-size: 1em;
+    letter-spacing: .1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 4px 0 14px 0;
+    transition: all .5s;
+    color: #edededc5;
+  }
+  
+  
+  .card-14:hover .card-14 .header-14 .title-14 {
+    padding: 0;
+  }
+  
+  .card-14 .content-14 {
+    display: block;
+    text-align: left;
+    color: #212121;
+    margin: 0 18px;
+  }
+  
+  .card-14 .content-14 p {
+    transition: all .5s;
+    font-size: .8em;
+    margin-bottom: 8px;
+  }
+  
+  .card-14 .content-14 a {
+    color: #AA7448;
+    cursor: pointer;
+    transition: all .5s;
+    font-size: .7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .card-14 .content-14 .btn-link-14:hover {
+    border-bottom: 1px solid #AA7448;
+  }
+
+  /* a */
+
+  /* card 15 */
+  
+  
+      
+.card-15 {
+  width: 100%;
+  height: 80%; /* Altura original */
+  transition: height .5s, background .5s; /* Transição para altura e background */
+  box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+             -15px -15px 30px rgba(60, 60, 60, 0.082);
+  text-align: center;
+  overflow: hidden;
+  grid-column: 6;
+  grid-row: 1;
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+
+.card-15:hover {
+  height: 360px; /* Altura aumentada durante o hover */
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+  
+  .card-15:hover {
+    height: 360px;
+    background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+  }
+  
+  .card-15 .header-15 {
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   background-image: url('../IMG/vale1.webp');
+   background-size: cover;
+    margin-bottom: 30px;
+  }
+
+  
+  .card-15 .header-15 .img-box-15 {
+    width: 50px;
+  }
+  
+  .card-15 .header-15 .title-15 {
+    font-size: 1em;
+    letter-spacing: .1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 4px 0 14px 0;
+    transition: all .5s;
+    color: #edededc5;
+  }
+  
+  
+  .card-15:hover .card-15 .header-15 .title-15 {
+    padding: 0;
+  }
+  
+  .card-15 .content-15 {
+    display: block;
+    text-align: left;
+    color: #212121;
+    margin: 0 18px;
+  }
+  
+  .card-15 .content-15 p {
+    transition: all .5s;
+    font-size: .8em;
+    margin-bottom: 8px;
+  }
+  
+  .card-15 .content-15 a {
+    color: #AA7448;
+    cursor: pointer;
+    transition: all .5s;
+    font-size: .7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  
+  .card-15 .content-15 .btn-link-15:hover {
+    border-bottom: 1px solid #AA7448;
+  }
+
+  /* a */
+
+  
+  
+  
+  
   
