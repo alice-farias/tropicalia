@@ -76,7 +76,7 @@ function updateCartUI() {
                 <span class="item-name">${item.name}</span>
                 <span class="item-price">R$ ${item.price.toFixed(2)}</span>
             </div>
-            <button class="delete-item-btn" onclick="removeItemFromCart(${index})"><img src="./IMG/lixeira.png" width="20px"></button>
+            <button class="delete-item-btn" onclick="removeItemFromCart(${index})"><img src="./IMG/botao-fechar-carrinho.png" width="20px"></button>
         `;
         cartItemsContainer.appendChild(cartItemElement);
     });
