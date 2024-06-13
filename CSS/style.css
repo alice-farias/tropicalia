@@ -14,9 +14,6 @@ body{
   background-color: #f9e8cc;
 }
 
-section {
-  margin-top: 10vh;
-}
 
 p {
   text-align: wrap;
@@ -341,6 +338,8 @@ p {
     padding: 1rem;
   }
 
+  
+
 #quemsomos {
     margin-left: 10vh;
 }
@@ -378,7 +377,8 @@ p {
     display: grid;
     height: 100vh;
     grid-template-rows: 0% 0% 0% 40% 10% 40%;
-    grid-template-columns: 10% 21.66% 7.5% 21.66% 7.5% 21.66% 10%;
+    grid-template-columns: 10% 21.66% 7.5% 21.66% 7.5% 21.66% 10% ;
+    margin-bottom: 0px;
 }
 
 .card-1 {
@@ -856,7 +856,7 @@ p {
   }
   
   .container1-produtos{
-      height: 150vh;
+      height: 100vh;
   }
   
   .container-produtos-1{
@@ -1578,10 +1578,16 @@ p {
   grid-template-columns: 4% 96%;
   grid-template-rows: 20% 3.3% 20% 3.3% 20% 3.3% 20%;
 }
+.container-contatos-footer a{
+  font-family: 'Julius Sans one';
+  color: #D9D9D9;
+  font-size: 125%;
+  text-decoration: none;
+}
 
 .linha1-contatos{
   display: grid;
-  grid-template-columns: 15% 85%;
+  grid-template-columns: 100%;
 }
 
 .linha1-contatos p{
@@ -1607,7 +1613,7 @@ p {
   grid-column: 2;
   
   display: grid;
-  grid-template-columns: 20% 80%;
+  grid-template-columns: 100%;
 
 }
 
@@ -1631,7 +1637,7 @@ p {
   grid-column: 2;
   
   display: grid;
-  grid-template-columns: 22% 78%;
+  grid-template-columns: 100%;
 
 }
 
@@ -1659,7 +1665,7 @@ p {
   grid-column: 2;
   
   display: grid;
-  grid-template-columns: 24% 76%;
+  grid-template-columns: 100%;
 
 }
 
@@ -2166,3 +2172,919 @@ shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-ren
   .sub-botao-com-plantinha-5{
     shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd
   }
+
+
+/* RESPONSIVIDADE  */
+
+  /* Estilos para dispositivos de tela média */
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .container-produtos-destaque{
+    height: 15vh;
+    display: grid;
+  }
+  
+  .container-produtos-destaque p{
+    align-self: center;
+    font-size: 150%;
+    font-family: 'Julius Sans One';
+    text-decoration: underline 1px;
+    justify-self: center;
+  }
+  
+.container-produtos-1{
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 0% 0% 0% 40% 10% 40%;
+  grid-template-columns: 2% 26.99% 7.5% 26.99% 7.5% 26.99% 2%;
+}
+
+.container-produtos-7{
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 0% 0% 0% 40% 10% 40%;
+  grid-template-columns: 2% 26.99% 7.5% 26.99% 7.5% 26.99% 2%;
+}
+
+.mini-container-cards{
+  display: grid;
+  height: 50vh;
+  grid-template-rows: 80% 20% ;
+  grid-template-columns: 2% 26.99% 7.5% 26.99% 7.5% 26.99% 2%;
+}
+
+.container-produtos-destaque-2{
+  height: 15vh;
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.container-produtos-destaque-2 p{
+  align-self: center;
+  grid-column: 1;
+  font-size: 150%;
+  font-family: 'Julius Sans One';
+  text-decoration: underline 1px;
+  justify-self: center;
+  align-self: center;
+}
+
+.card-1 .header-1, .card-2 .header-2, .card-3 .header-3, .card-4 .header-4, .card-5 .header-5, .card-6 .header-6, .card-7 .header-7, .card-8 .header-8, .card-9 .header-9, .card-10 .header-10, .card-11 .header-11, .card-12 .header-12, .card-13 .header-13, .card-14 .header-14, .card-15 .header-15 {
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ background-size: cover;
+  margin-bottom: 10px;
+}
+
+.container-logo-footer{
+  grid-column: 5;
+  grid-row: 3;
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 25% 50% 25%;
+}
+
+.container-logo-footer img{
+  border-radius: 20px;
+  align-self: center;
+  justify-self: center;
+  grid-row: 2;
+}
+
+
+.container-contatos-footer{
+  grid-row: 3;
+  grid-column: 2;
+  display: grid;
+  grid-template-columns: 4% 96%;
+  grid-template-rows: 20% 3.3% 20% 3.3% 20% 3.3% 20%;
+}
+
+.titulo-contatos-footer{
+  grid-row: 1 ;
+  grid-column: 2;
+  align-self: flex-end;
+  justify-self: center;
+  color: white;
+  font-family: 'Julius Sans One';
+  font-size: 130%;
+  margin: 0;
+}
+
+}
+
+/* SEGUNDA PARTE DA RESPONSIVIDADE CELULAR ABAIXO */
+
+@media only screen and (min-width: 300px) and (max-width: 768px){
+.container-precisa-ajuda{  
+  height: 22.5vh;
+  display: grid;
+  grid-template-columns: 5% 40% 10% 40% 5% ;
+  grid-template-rows: 33.3% 33.3% 33.3%;
+  background-color: #D9D9D9;
+  transition: background-color 0.5s ease
+  
+}
+
+.precisa-de-ajuda{
+  grid-row: 2;
+}
+
+  .precisa-de-ajuda p{
+font-size: 80%;
+  }
+
+  .troca-devolucao-ajuda{
+    font-size: 80%;
+    align-self: flex-end;
+  }
+
+  .meus-pedidos-ajuda{
+    grid-row: 2;
+    grid-column: 4;
+    
+    font-size: 80%;
+  }
+
+  .produtos-ajuda{
+    grid-row: 3;
+    grid-column: 4;
+    font-size: 80%;
+    align-self: start;
+  }
+
+  .titulo-contatos-footer{
+    font-size: 80%;
+  }
+
+  .container-contatos-footer a{
+    font-family: 'Julius Sans one';
+    color: #D9D9D9;
+    font-size: 80%;
+    text-decoration: none;
+  }
+
+  .container-logo-footer{
+    grid-column: 5;
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 25% 50% 25%;
+  }
+  
+  .container-logo-footer img{
+    border-radius: 20px;
+    align-self: center;
+    justify-self: center;
+    grid-row: 2;
+  }
+
+  .container-direitos-footer p{
+    font-size: 60%;
+  }
+
+  .container-produtos-destaque p{
+    font-size: 90%;
+    align-self: center;
+    justify-self: center;
+  }
+
+  
+.container-produtos-1{
+  display: grid;
+  height: 220vh;
+  grid-template-rows: 0% 0% 0% 15% 5% 15% 5% 15% 5% 15% 5% 15% 5% 15% 5%;
+  grid-template-columns: 20% 60% 20%;
+}
+
+
+.card-1 {
+  width: 100%;
+  height: 80%;
+  transition: all .5s;
+  box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+             -15px -15px 30px rgba(60, 60, 60, 0.082);
+  text-align: center;
+  overflow: hidden;
+  grid-column: 2;
+  grid-row: 4;
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+  
+}
+
+.card-2{
+  grid-row: 6;
+  grid-column: 2;
+}
+
+.card-3{
+  grid-row: 8;
+  grid-column: 2;
+}
+
+.card-4{
+  grid-row: 10;
+  grid-column: 2;
+}
+
+
+.card-5{
+  grid-row: 12;
+  grid-column: 2;
+}
+
+
+.card-6{
+  grid-row: 14;
+  grid-column: 2;
+}
+
+.container-vale-presentes{
+  display: grid;
+  height: 80vh;
+  grid-template-columns: 10% 21.5% 7.75% 21.5% 7.75% 21.5% 10%;
+  grid-template-rows: 2.5% 95% 2.5%;
+  margin-top: 800px;
+}
+
+.espacamento-extra-1{
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  align-content: center;
+  grid-row: 16;
+  grid-column-start: 1;
+  grid-column-end: 8;
+}
+
+.card-1:hover {
+  height: 240px;
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+
+.card-1 .header-1 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ background-image: url('../IMG/produto1.png');
+ background-size: cover;
+  margin-bottom: 30px;
+}
+
+.card-1 .content-1 p {
+  transition: all .5s;
+  font-size: .6em;
+  margin-bottom: 0px;
+}
+
+.card-1 .content-1 a {
+  color: #AA7448;
+  cursor: pointer;
+  transition: all .5s;
+  font-size: .6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card-1 .content-1 .btn-link-1:hover {
+  border-bottom: 1px solid #AA7448;
+}
+
+.card-2:hover {
+  height: 240px;
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+
+.card-2 .header-2 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ background-size: cover;
+  margin-bottom: 30px;
+}
+
+.card-2 .content-2 p {
+  transition: all .5s;
+  font-size: .6em;
+  margin-bottom: 0px;
+}
+
+.card-2 .content-2 a {
+  color: #AA7448;
+  cursor: pointer;
+  transition: all .5s;
+  font-size: .6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card-2 .content-2 .btn-link-2:hover {
+  border-bottom: 1px solid #AA7448;
+}
+
+
+.card-3:hover {
+  height: 240px;
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+
+.card-3 .header-3 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ background-size: cover;
+  margin-bottom: 30px;
+}
+
+.card-3 .content-3 p {
+  transition: all .5s;
+  font-size: .6em;
+  margin-bottom: 0px;
+}
+
+.card-3 .content-3 a {
+  color: #AA7448;
+  cursor: pointer;
+  transition: all .5s;
+  font-size: .6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card-3 .content-3 .btn-link-3:hover {
+  border-bottom: 1px solid #AA7448;
+}
+
+
+
+.card-4:hover {
+  height: 240px;
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+
+.card-4 .header-4 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ background-size: cover;
+  margin-bottom: 30px;
+}
+
+.card-4 .content-4 p {
+  transition: all .5s;
+  font-size: .6em;
+  margin-bottom: 0px;
+}
+
+.card-4 .content-4 a {
+  color: #AA7448;
+  cursor: pointer;
+  transition: all .5s;
+  font-size: .6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card-4 .content-4 .btn-link-4:hover {
+  border-bottom: 1px solid #AA7448;
+}
+
+
+
+
+
+.card-5:hover {
+  height: 240px;
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+
+.card-5 .header-5 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ background-size: cover;
+  margin-bottom: 30px;
+}
+
+.card-5 .content-5 p {
+  transition: all .5s;
+  font-size: .6em;
+  margin-bottom: 0px;
+}
+
+.card-5 .content-5 a {
+  color: #AA7448;
+  cursor: pointer;
+  transition: all .5s;
+  font-size: .6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card-5 .content-5 .btn-link-5:hover {
+  border-bottom: 1px solid #AA7448;
+}
+
+
+.card-6:hover {
+  height: 240px;
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+
+.card-6 .header-6 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ background-size: cover;
+  margin-bottom: 30px;
+}
+
+.card-6 .content-6 p {
+  transition: all .5s;
+  font-size: .6em;
+  margin-bottom: 0px;
+}
+
+.card-6 .content-6 a {
+  color: #AA7448;
+  cursor: pointer;
+  transition: all .5s;
+  font-size: .6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card-6 .content-6 .btn-link-6:hover {
+  border-bottom: 1px solid #AA7448;
+}
+
+
+
+.card-7:hover {
+  height: 240px;
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+
+.card-7 .header-7 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ background-size: cover;
+  margin-bottom: 30px;
+}
+
+.card-7 .content-7 p {
+  transition: all .5s;
+  font-size: .6em;
+  margin-bottom: 0px;
+}
+
+.card-7 .content-7 a {
+  color: #AA7448;
+  cursor: pointer;
+  transition: all .5s;
+  font-size: .6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card-7 .content-7 .btn-link-7:hover {
+  border-bottom: 1px solid #AA7448;
+}
+
+
+
+.card-8:hover {
+  height: 240px;
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+
+.card-8 .header-8 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ background-size: cover;
+  margin-bottom: 30px;
+}
+
+.card-8 .content-8 p {
+  transition: all .5s;
+  font-size: .6em;
+  margin-bottom: 0px;
+}
+
+.card-8 .content-8 a {
+  color: #AA7448;
+  cursor: pointer;
+  transition: all .5s;
+  font-size: .6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card-8 .content-8 .btn-link-8:hover {
+  border-bottom: 1px solid #AA7448;
+}
+
+
+
+
+.card-9:hover {
+  height: 240px;
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+
+.card-9 .header-9 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ background-size: cover;
+  margin-bottom: 30px;
+}
+
+.card-9 .content-9 p {
+  transition: all .5s;
+  font-size: .6em;
+  margin-bottom: 0px;
+}
+
+.card-9 .content-9 a {
+  color: #AA7448;
+  cursor: pointer;
+  transition: all .5s;
+  font-size: .6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card-9 .content-9 .btn-link-9:hover {
+  border-bottom: 1px solid #AA7448;
+}
+
+
+
+.card-10:hover {
+  height: 240px;
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+
+.card-10 .header-10 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ background-size: cover;
+  margin-bottom: 30px;
+}
+
+.card-10 .content-10 p {
+  transition: all .5s;
+  font-size: .6em;
+  margin-bottom: 0px;
+}
+
+.card-10 .content-10 a {
+  color: #AA7448;
+  cursor: pointer;
+  transition: all .5s;
+  font-size: .6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card-10 .content-10 .btn-link-10:hover {
+  border-bottom: 1px solid #AA7448;
+}
+
+
+
+.card-11:hover {
+  height: 240px;
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+
+.card-11 .header-11 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ background-size: cover;
+  margin-bottom: 30px;
+}
+
+.card-11 .content-11 p {
+  transition: all .5s;
+  font-size: .6em;
+  margin-bottom: 0px;
+}
+
+.card-11 .content-11 a {
+  color: #AA7448;
+  cursor: pointer;
+  transition: all .5s;
+  font-size: .6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card-11 .content-11 .btn-link-11:hover {
+  border-bottom: 1px solid #AA7448;
+}
+
+
+.card-12:hover {
+  height: 240px;
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+
+.card-12 .header-12 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ background-size: cover;
+  margin-bottom: 30px;
+}
+
+.card-12 .content-12 p {
+  transition: all .5s;
+  font-size: .6em;
+  margin-bottom: 0px;
+}
+
+.card-12 .content-12 a {
+  color: #AA7448;
+  cursor: pointer;
+  transition: all .5s;
+  font-size: .6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card-12 .content-12 .btn-link-12:hover {
+  border-bottom: 1px solid #AA7448;
+}
+
+
+
+.card-13:hover {
+  height: 240px;
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+
+.card-13 .header-13 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ background-size: cover;
+  margin-bottom: 30px;
+}
+
+.card-13 .content-13 p {
+  transition: all .5s;
+  font-size: .6em;
+  margin-bottom: 0px;
+}
+
+.card-13 .content-13 a {
+  color: #AA7448;
+  cursor: pointer;
+  transition: all .5s;
+  font-size: .6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card-13 .content-13 .btn-link-13:hover {
+  border-bottom: 1px solid #AA7448;
+}
+
+.card-14:hover {
+  height: 240px;
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+
+.card-14 .header-14 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ background-size: cover;
+  margin-bottom: 30px;
+}
+
+.card-14 .content-14 p {
+  transition: all .5s;
+  font-size: .6em;
+  margin-bottom: 0px;
+}
+
+.card-14 .content-14 a {
+  color: #AA7448;
+  cursor: pointer;
+  transition: all .5s;
+  font-size: .6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card-14 .content-14 .btn-link-14:hover {
+  border-bottom: 1px solid #AA7448;
+}
+
+
+
+
+.card-15:hover {
+  height: 240px;
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+}
+
+.card-15 .header-15 {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ background-size: cover;
+  margin-bottom: 30px;
+}
+
+.card-15 .content-15 p {
+  transition: all .5s;
+  font-size: .6em;
+  margin-bottom: 0px;
+}
+
+.card-15 .content-15 a {
+  color: #AA7448;
+  cursor: pointer;
+  transition: all .5s;
+  font-size: .6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card-15 .content-15 .btn-link-15:hover {
+  border-bottom: 1px solid #AA7448;
+}
+
+
+.container-produtos-7{
+  display: grid;
+  height: 220vh;
+  grid-template-rows: 0% 0% 0% 15% 5% 15% 5% 15% 5% 15% 5% 15% 5% 15% 5%;
+  grid-template-columns: 20% 60% 20%;
+  margin-bottom: 200px;
+}
+
+
+
+.card-7 {
+  width: 100%;
+  height: 80%;
+  transition: all .5s;
+  box-shadow: 15px 15px 30px rgba(25, 25, 25, 0.11),
+             -15px -15px 30px rgba(60, 60, 60, 0.082);
+  text-align: center;
+  overflow: hidden;
+  grid-column: 2;
+  grid-row: 4;
+  background: linear-gradient(360deg, #edededc5 100%, hsla(0, 0%, 13%, 1) 70%);
+  
+}
+
+.card-8{
+  grid-row: 6;
+  grid-column: 2;
+}
+
+.card-9{
+  grid-row: 8;
+  grid-column: 2;
+}
+
+.card-10{
+  grid-row: 10;
+  grid-column: 2;
+}
+
+
+.card-11{
+  grid-row: 12;
+  grid-column: 2;
+}
+
+
+.card-12{
+  grid-row: 14;
+  grid-column: 2;
+}
+
+
+
+.card-13{
+  grid-row: 4;
+  grid-column: 2;
+}
+
+.card-14{
+  grid-row: 6;
+  grid-column: 2;
+}
+
+.card-15{
+  grid-row: 8;
+  grid-column: 2;
+}
+
+
+.mini-container-cards{
+  margin-top: 275px;
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 0% 0% 0% 30% 10% 30% 10% 30% 10%;
+  grid-template-columns: 20% 60% 20%;
+  margin-bottom: 150px;
+}  
+
+.container-contatos-footer a{
+  font-size: 60%;
+}
+
+.container-direitos-footer p{
+  font-size: 50%;
+}
+
+.container-logo-footer{
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+
+.container-logo-footer img{
+  border-radius: 10px;
+}
+
+
+.precisa-de-ajuda{
+  grid-row: 2;
+}
+
+  .precisa-de-ajuda p{
+font-size: 60%;
+  }
+
+  .troca-devolucao-ajuda{
+    font-size: 60%;
+    align-self: flex-end;
+  }
+
+  .meus-pedidos-ajuda{
+    grid-row: 2;
+    grid-column: 4;
+    
+    font-size: 60%;
+  }
+
+  .produtos-ajuda{
+    font-size: 60%;
+  }
+
+  #quemsomos {
+    margin-left: 10vh;
+    margin-top: 150vh;
+}
+
+.hr-erronio{
+  width: 0;
+}
+
+.pQuemSomos{
+  margin: 25px;
+}
+} 
