@@ -2917,20 +2917,91 @@ margin-bottom: 10vh;
 }
 
 
+.nomeCurso1{
+  padding: 20px 90px 0px 90px;
+}
+
+.miniDescCurso1{
+  padding: 0px 90px 10px 90px;
+}
+
+.liCurso1{
+  padding: 0px 90px 10px 90px;;
+}
+
+.liCurso1 li{
+  padding-bottom: 5px;
+}
+
 
 
 .section-texto {
 margin: 10vh;
 }
 
+.container-curso1 {
+  margin: 60px;
+  border-radius: 20px;
+  overflow: hidden; /* Para esconder o overflow da animação */
+  position: relative;
+}
+
+.container-curso1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 100% 0, transparent, #86bbd8);
+  transform: scaleX(3); /* Começa sem largura */
+  transform-origin: top right;
+  z-index: -1; /* Para colocar atrás do conteúdo principal */
+  transition: transform 1s cubic-bezier(0.25, 1, 0.5, 1); /* Transição suave */
+}
+
+.container-curso1:hover::before {
+  transform: scaleX(1); /* Aumenta para cobrir todo o container */
+}
+
+
+
+.requisitos-curso-container {
+  margin: 60px;
+  border-radius: 20px;
+  overflow: hidden; /* Para esconder o overflow da animação */
+  position: relative;
+}
+
+.requisitos-curso-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 100% 0, transparent, #755f4c);
+  transform: scaleX(3); /* Começa sem largura */
+  transform-origin: top right;
+  z-index: -1; /* Para colocar atrás do conteúdo principal */
+  transition: transform 1s cubic-bezier(0.25, 1, 0.5, 1); /* Transição suave */
+}
+
+.requisitos-curso-container:hover::before {
+  transform: scaleX(1); /* Aumenta para cobrir todo o container */
+}
+
+.titulo-requisitos{
+  padding: 0px 90px 10px 90px;
+}
 
 
 
 
-
-
-
-
+.miniDescCurso2{
+  padding: 20px 90px 0px 90px;
+  padding-bottom: 70px;
+}
 
 
 
@@ -3866,4 +3937,99 @@ font-size: 60%;
 .pQuemSomos{
   margin: 25px;
 }
+
+
+/* CAIXAS DE CURSOS ULTIMO PUSH */
+
+.nomeCurso1{
+  padding: 0px 20px 0px 20px;
+  font-size: 20px;
+}
+
+.miniDescCurso1{
+  padding: 0px 20px 10px 20px;
+}
+
+.liCurso1{
+  padding: 40px 40px 40px 40px;;
+}
+
+.liCurso1 li{
+  padding-bottom: 10px;
+}
+
+
+
+.section-texto {
+margin: 10vh;
+}
+
+.container-curso1 {
+  margin: 10px;
+  border-radius: 20px;
+  overflow: hidden; /* Para esconder o overflow da animação */
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.container-curso1::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 100% 0, transparent, #86bbd8);
+  transform: scaleX(3); /* Começa sem largura */
+  transform-origin: top right;
+  z-index: -1; /* Para colocar atrás do conteúdo principal */
+  transition: transform 1s cubic-bezier(0.25, 1, 0.5, 1); /* Transição suave */
+}
+
+.container-curso1:hover::before {
+  transform: scaleX(1); /* Aumenta para cobrir todo o container */
+}
+
+
+
+.requisitos-curso-container {
+  margin: 20px;
+  border-radius: 20px;
+  overflow: hidden; /* Para esconder o overflow da animação */
+  position: relative;
+}
+
+.requisitos-curso-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle at 100% 0, transparent, #574637);
+  transform: scaleX(3); /* Começa sem largura */
+  transform-origin: top right;
+  z-index: -1; /* Para colocar atrás do conteúdo principal */
+  transition: transform 1s cubic-bezier(0.25, 1, 0.5, 1); /* Transição suave */
+}
+
+.requisitos-curso-container:hover::before {
+  transform: scaleX(1); /* Aumenta para cobrir todo o container */
+}
+
+.titulo-requisitos{
+  padding: 0px 90px 0px 90px;
+  font-size: 20p;
+}
+
+.titulo-requisitos{
+  padding: 0px 90px 10px 90px;
+}
+
+
+.miniDescCurso2{
+  padding: 20px 20px 0px 40px;
+  padding-bottom: 70px;
+}
+
 } 
